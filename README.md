@@ -1,5 +1,5 @@
 # Insect_Label_Bboxer
-# Insect_Label_Bboxer (ILBb) a custom Detectron2 model followed by bounding box collector and tsv out
+# Insect_Label_Bboxer (ILBb) a custom Detectron2 model followed by bounding box collector and tsv out, video coming soon!
 
 # install miniconda
 ## follow the instructions to install miniconda on your system here
