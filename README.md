@@ -13,17 +13,17 @@ conda activate Detectron2_ILBb
 # So far only tested on a cpu, but it should work on gpu as well
 # There are ton of dependencies but don't worry between pip and conda you shoud be able to install them, I will try to list some of them here:
 pip install opencv-python
-#
+
 pip install opencv-python-headless
-#
+
 pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.9/index.html
-#
+
 pip install torch torchvision torchaudio
-#
+
 pip install spacy
-#
+
 pip install googlemaps
-#
+
 pip install scikit-learn
 
 pip install mmcv
