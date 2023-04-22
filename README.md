@@ -5,8 +5,9 @@ Insect_Label_Bboxer (ILBb) a custom Detectron2 model followed by bounding box co
 ## follow the instructions to install miniconda on your system here
 https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links
 
-
+## create a conda environment
 conda create -n Detectron2_ILBb python=3.9
+## activate the environment
 conda activate Detectron2_ILBb
 
 # So far only tested on a cpu, but it should work on gpu as well
