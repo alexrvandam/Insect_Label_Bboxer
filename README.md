@@ -49,6 +49,9 @@ https://detectron2.readthedocs.io/en/latest/
 
 # Then cd into the Insect_label folder
 cd Insect_label
+
+# Then you will need to put the images you want to detect, instance segment, and then extract bbox's for in the test folder replace my_images with yours below, cp is a suggestion you could also use mv or just drag and drop them
+cp my_images.jpeg test/
 # then you can run the code and if all is set up it should work
 
 python Get_label_bbox_plus_IDs.py
