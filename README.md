@@ -53,6 +53,12 @@ cd Insect_label
 # you will probably need to change the file paths in Get_label_bbox_plus_IDs.py on to your file path to where you stored the Insect_Label_Bboxer folder in other words
 # do a find and replace within that file for '"./' to /My/computer/folder_where_I_downloaded/Insect_Label_Bboxer/ and then it should work
 
+## important you need to download the model to get Detectron2 to make the predictions go to the OneDrive Link below and download it
+
+
+https://sistemaupr-my.sharepoint.com/:u:/g/personal/alex_vandam_upr_edu/EdL6fBT5MX1GvYHWwxUrBmoBCsT_AfV1hq8nIt5EeC0Gtg?e=DF3ehw
+
+
 # Then you will need to put the images you want to detect, instance segment, and then extract bbox's for in the test folder replace my_images with yours below, cp is a suggestion you could also use mv or just drag and drop them
 cp my_images.jpeg test/
 # then you can run the code and if all is set up it should work
