@@ -75,13 +75,6 @@ video_folder = "/Users/alexvandam/Mask_RCNN/Dataset/Insect_label/test/video"
 output_folder = "/Users/alexvandam/Mask_RCNN/Dataset/Insect_label/test/output"
 
 
-# Set the path to the Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r"/Users/alexvandam/opt/miniconda3/envs/detectron2/bin/pytesseract"
-
-# Load SpaCy NLP model and Google Maps API client
-nlp = spacy.load("en_core_web_lg")
-gmaps = googlemaps.Client(key="AIzaSyBFuYjvJorWM6D8n144y8rdVhAGNmLzRe4")
-
 
 ###############################################################################
 def save_bounding_box_images(image, boxes, output_folder, filename_prefix):
